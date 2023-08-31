@@ -1,51 +1,74 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Coursera-ass-mod-2</title>
-<link rel="stylesheet" href="css/style.css"/>
-</head>
+    <title>BOOSTRAP ASSIGNMENT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-<body>
-	<h1>Our Menu</h1>
-	<div class="row">
-		<section class="col-1">
-			<div class="chicken">
-				Chicken
-			</div>
-			<div class="lorem-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</section>
-		<section class="col-2">
-			<div class="beef">
-				Beef
-			</div>
-			<div class="lorem-2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</section>
-		<section class="col-3">
-			<div class="sushi">
-				Sushi
-			</div class="lorem-3">
-			<div class="lorem-2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-		</section>
-	</div>
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style type="text/css">         
+        @media(max-width: 768px){
+            .navbar-collapse { background:#cccccc; /*replace with desired color*/ }
+        }
+		 @media(min-width: 768px){
+            .navbar-nav { display: none; /*replace with desired color*/ }
+        }
+    </style>    
+</head>
+<body>    
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #5f5f5f;">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Food, LLC</a>
+            
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Chicken</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Beef</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Sushi</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+          </nav>
+            <div class="text-center" style="font-size: 50px;">OUR MENU</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color: #5f5f5f;">
+                        <p class="text-center"><b>Chicken</b></p>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id diam porta, hendrerit diam vitae, accumsan neque. Donec pharetra velit nec felis ultrices, sed feugiat urna vehicula. Donec eget tincidunt ligula, eget congue tellus. Nam sed tortor egestas leo rhoncus maximus. Integer dui massa, dictum a venenatis ut, viverra eu tortor. Aenean turpis quam, ornare eget velit vel, elementum consectetur velit. Fusce at tellus mollis, interdum ante ut, fermentum est. Nulla ac mi dui. Fusce malesuada faucibus felis vitae finibus.
+
+Ut elit quam, tempus quis velit non, vulputate aliquet elit. Vestibulum venenatis a mi id tristique. In congue elit in luctus vulputate. Maecenas mattis diam orci, eu tristique risus vehicula et. Vestibulum pretium est quis ipsum pellentesque, id fermentum nisl aliquam. Phasellus libero nunc, porta sit amet mauris quis, sollicitudin malesuada orci. Nunc auctor purus sem, eget maximus quam gravida eu. Aenean mattis purus vel lacus vehicula, non venenatis diam ultricies. Vivamus tempus vel enim a aliquam.
+
+Sed quis tellus sodales, dictum nulla at, lobortis dolor. Curabitur efficitur nisi quis risus ultrices, quis convallis lacus rhoncus. Morbi est elit, sodales non efficitur accumsan, porta eu mauris. Nulla vitae ex gravida, tincidunt lectus ut, consectetur magna. Duis quis purus efficitur, faucibus lacus et, sagittis ante. Cras eu erat nec purus euismod ullamcorper. Etiam eget ipsum dolor. Proin fringilla porttitor nisi, eu auctor augue convallis sit amet. Sed eu cursus est. Donec lacus sem, pharetra id accumsan imperdiet, interdum vitae mauris. Nunc eget magna sit amet massa volutpat tincidunt ut eu nisl. Mauris porta turpis lectus. Cras consectetur suscipit nibh, sed malesuada eros porta eget. Quisque iaculis sapien non erat aliquet ornare. Proin tempor massa eget lacus facilisis gravida.
+
+Morbi tempor tellus sed lorem dignissim eleifend. Aenean gravida nulla pellentesque ligula pharetra aliquet. Nulla in erat vel arcu vehicula posuere. Donec luctus nec ipsum et commodo. Nam fringilla, metus id convallis consequat, enim est consectetur sem, venenatis scelerisque arcu leo eget ex. Mauris fermentum orci ac sem molestie suscipit. Vivamus nibh tortor, cursus eu malesuada eu, pretium vitae diam. Vivamus in magna ut turpis pellentesque dignissim. Aenean neque nulla, finibus vel luctus non, cursus ut velit. Proin sed dolor erat. Pellentesque nulla turpis, vehicula non lorem ac, commodo laoreet neque. Fusce porttitor consectetur nisi, quis feugiat risus. Nulla pulvinar mi a nibh ornare euismod. Fusce in sapien quis odio semper pellentesque a congue sapien.
+
+Phasellus iaculis, justo nec aliquet eleifend, sapien tellus malesuada metus, nec vehicula sem ante aliquet velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean mollis sapien venenatis tempor ornare. Integer sed nibh hendrerit, bibendum tellus vitae, lobortis erat. Donec metus purus, pretium ac luctus ut, iaculis in massa. Vivamus dignissim sapien ut erat iaculis vestibulum. Nunc consequat, eros ac fringilla dapibus, nibh enim hendrerit turpis, sit amet maximus turpis est non nulla. Pellentesque augue est, fermentum et viverra et, convallis sit amet odio. Aenean ipsum velit, pulvinar ut augue non, iaculis facilisis turpis. Donec dolor ex, facilisis sit amet turpis vitae, congue pulvinar eros. Donec in magna vitae arcu aliquam sagittis. Curabitur id ex convallis, rutrum metus sed, eleifend ipsum.
+                    </div>
+                </div>
+            </div>
+
+    
 </body>
 </html>
